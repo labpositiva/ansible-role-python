@@ -4,7 +4,7 @@ This file uses change log convention from [Keep a CHANGELOG](http://keepachangel
 
 ## [Unreleased]
 
-## [0.0.1] - 2017-07-30
+# [0.0.1] - 2017-07-30
 
 [Unreleased]: https://github.com/labpositiva/ansible-role-python/compare/0.0.1...HEAD
 [0.0.1]: https://github.com/labpositiva/ansible-role-python/compare/0.0.0...0.0.1
