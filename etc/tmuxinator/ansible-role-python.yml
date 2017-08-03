@@ -34,44 +34,42 @@ windows:
       panes:
         - editor:
             - pyenv activate ansible-role-python
-            - gvm pkgset use ansible-role-python
-            - <%= ENV["EDITOR"] %>
+            - pyenv activate ansible-role-python
+            - pyenv activate ansible-role-python
         - docker:
             - pyenv activate ansible-role-python
-            - gvm pkgset use ansible-role-python
+            - pyenv activate ansible-role-python
   - python:
       layout: main-vertical
       panes:
         - python:
             - pyenv activate ansible-role-python
-            - gvm pkgset use ansible-role-python
+            - pyenv activate ansible-role-python
             - ipython
   - databases:
       layout: main-vertical
       panes:
         - postgresql:
             - pyenv activate ansible-role-python
-            - gvm pkgset use ansible-role-python
+            - pyenv activate ansible-role-python
         - shell:
             - pyenv activate ansible-role-python
-            - gvm pkgset use ansible-role-python
+            - pyenv activate ansible-role-python
   - docker:
       layout: main-vertical
       panes:
         - docker:
             - pyenv activate ansible-role-python
-            - gvm pkgset use ansible-role-python
+            - pyenv activate ansible-role-python
         - shell:
             - pyenv activate ansible-role-python
-            - gvm pkgset use ansible-role-python
+            - pyenv activate ansible-role-python
   - tools:
       layout: main-vertical
       panes:
         - watch:
             - pyenv activate ansible-role-python
-            - gvm pkgset use ansible-role-python
-            - make watch
+            - pyenv activate ansible-role-python
         - grip:
             - pyenv activate ansible-role-python
-            - gvm pkgset use ansible-role-python
-            - make grip
+            - pyenv activate ansible-role-python
