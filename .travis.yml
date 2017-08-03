@@ -1,6 +1,6 @@
 ---
 language: python
-python: "2.7"
+python: "3.6"
 
 # Use the new container infrastructure
 sudo: false
@@ -13,14 +13,14 @@ addons:
 
 install:
   # Install dependences
-  - make install
+  - make install env=test
   # Check ansible version
   - ansible --version
   # Create ansible.cfg with correct roles_path
   - printf '[defaults]\nroles_path=../' >ansible.cfg
 
 script:
-  - make lintcode
+  - make lint
   - make test
 
 notifications:
