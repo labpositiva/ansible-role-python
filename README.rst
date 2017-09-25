@@ -3,7 +3,7 @@ Ansible Role Python
 
 |Build Status| |Ansible Galaxy| |GitHub issues| |Average time to resolve an issue| |Percentage of issues still open| |GitHub license|
 
-:Version: 0.0.0
+:Version: 0.1.0
 :Web: https://github.com/labpositiva/ansible-role-python
 :Download: http://github.com/labpositiva/ansible-role-python
 :Source: http://github.com/labpositiva/ansible-role-python
