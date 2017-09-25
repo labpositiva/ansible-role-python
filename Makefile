@@ -20,7 +20,7 @@ PYENV_NAME="${PROJECT_NAME}"
 # Configuration.
 SHELL := /bin/bash
 ROOT_DIR=$(shell pwd)
-MESSAGE:="༼ つ ◕_◕ ༽つ"
+MESSAGE:=༼ つ ◕_◕ ༽つ
 MESSAGE_HAPPY:="${MESSAGE} Happy Coding"
 SCRIPT_DIR=$(ROOT_DIR)/extras/scripts
 SOURCE_DIR=$(ROOT_DIR)/
@@ -31,8 +31,7 @@ FILE_README=$(ROOT_DIR)/README.rst
 include *.mk
 
 help:
-	@echo ''
-	@echo 'Makefile for the Ansible role Python'
+	@echo '${MESSAGE} Makefile for the Ansible role Python'
 	@echo ''
 	@echo 'Usage:'
 	@echo '    make environment               create environment with pyenv'
