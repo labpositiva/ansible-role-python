@@ -36,7 +36,6 @@
     -   id: name-tests-test
     -   id: file-contents-sorter
     -   id: fix-encoding-pragma
-    -   id: no-commit-to-branch
     -   id: sort-simple-yaml
     -   id: flake8
         files: ^src/.*\.py$
