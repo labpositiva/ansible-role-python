@@ -1,3 +1,11 @@
+#
+# See ./CONTRIBUTING.rst
+#
+
+VERSION=$(shell grep __version__ pyworkplace/__init__.py)
+TAG:=""
+END:=""
+
 .PHONY: build deploy lint test functions help
 .DEFAULT_GOAL := help
 
