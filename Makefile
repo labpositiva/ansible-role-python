@@ -1,3 +1,10 @@
+#
+# See ./CONTRIBUTING.rst
+#
+
+TAG:=""
+END:=""
+
 .PHONY: build deploy lint test functions help
 .DEFAULT_GOAL := help
 
