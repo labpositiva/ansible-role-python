@@ -2,7 +2,6 @@
 # See ./CONTRIBUTING.rst
 #
 
-VERSION=$(shell grep __version__ pyworkplace/__init__.py)
 TAG:=""
 END:=""
 
