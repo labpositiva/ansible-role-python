@@ -14,13 +14,14 @@ Ansible Role Python
 
 Ansible Galaxy role for `python`_.
 
-Requirements
-============
+Requirements:
+=============
 
--  Linux
--  none
--  OSX
--  none
+List of applications:
+
+- `Python 3.6.1`_
+- `Docker`_
+- `Docker Compose`_
 
 Install
 =======
