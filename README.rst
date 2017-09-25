@@ -1,7 +1,7 @@
 Ansible Role Python
 ###################
 
-|Build Status| |Wercker| |Pyup| |license|
+|Build Status| |Ansible Galaxy| |GitHub issues| |Average time to resolve an issue| |Percentage of issues still open| |GitHub license|
 
 :Version: 0.0.0
 :Web: https://github.com/labpositiva/ansible-role-python
@@ -114,14 +114,20 @@ Credits
 -  `author`_
 -  `contributors`_
 
-Made with ♥️and ☕️by `author`_ and `company`_.
+Made with :heart: :coffee: and :pizza: by `author`_ and `company`_.
+
+.. Badges:
 
 .. |Build Status| image:: https://travis-ci.org/labpositiva/ansible-role-python.svg
    :target: https://travis-ci.org/labpositiva/ansible-role-python
-.. |Stories in Ready| image:: https://badge.waffle.io/labpositiva/ansible-role-python.svg?label=ready&title=Ready
-   :target: http://waffle.io/labpositiva/ansible-role-python
+.. |Ansible Galaxy| image:: https://img.shields.io/badge/galaxy-labpositiva.redis-blue.svg
+   :target: https://galaxy.ansible.com/labpositiva/redis/
 .. |GitHub issues| image:: https://img.shields.io/github/issues/labpositiva/ansible-role-python.svg
    :target: https://github.com/labpositiva/ansible-role-python/issues
+.. |Average time to resolve an issue| image:: http://isitmaintained.com/badge/resolution/labpositiva/ansible-role-python.svg
+   :target: http://isitmaintained.com/project/labpositiva/ansible-role-python
+.. |Percentage of issues still open| image:: http://isitmaintained.com/badge/open/labpositiva/ansible-role-python.svg
+   :target: http://isitmaintained.com/project/labpositiva/ansible-role-python
 .. |GitHub license| image:: https://img.shields.io/github/license/mashape/apistatus.svg?style=flat-square
    :target: LICENSE
 
@@ -130,7 +136,7 @@ Made with ♥️and ☕️by `author`_ and `company`_.
 .. _`contributors`: AUTHORS
 .. _`contributing`: CONTRIBUTING.rst
 
-.. _`company`: https://github.com/labpositivatd
+.. _`company`: https://github.com/labpositiva
 .. _`author`: https://github.com/luismayta
 
 .. dependences
