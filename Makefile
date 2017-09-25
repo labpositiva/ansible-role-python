@@ -3,11 +3,10 @@
 #
 
 
-TAG:=""
-END:=""
+TAG :=""
+END :=""
 
 .PHONY: help build up requirements clean lint test help
-.DEFAULT_GOAL := help
 
 PROJECT_NAME := ansible-role-python
 PROJECT_NAME_DEV := $(PROJECT_NAME)_dev
